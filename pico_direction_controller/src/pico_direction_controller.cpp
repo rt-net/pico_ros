@@ -9,8 +9,20 @@ float linear_x,angular_z;
 
 void callback(const sensor_msgs::msg::Joy::SharedPtr data)
 {
-  linear_x = data->axes[1]*1000.0;
-  angular_z = data->axes[3]*500.0;
+  if(data->axes[7] != 0 ){
+    linear_x = 150*data->axes[7];
+  }else if((data->axes[1] > 0.00001) || (data->axes[1] < -0.00001)){
+    linear_x = data->axes[1]*1000.0;
+  }else{
+    linear_x = 0;
+  } 
+  if(data->axes[6] != 0){
+    angular_z = 250*data->axes[6];
+  }else if((data->axes[3] > 0.00001) || (data->axes[3] < -0.00001)){ 
+    angular_z = data->axes[3]*500.0;
+  }else{
+    angular_z = 0;
+  }
 }
 
 
