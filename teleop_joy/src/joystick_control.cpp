@@ -31,9 +31,9 @@ void callback(const sensor_msgs::msg::Joy::SharedPtr data)
     linear_x = 0;
   } 
   if(data->axes[6] != 0){
-    angular_z = 50*data->axes[6];
+    angular_z = 3*data->axes[6];
   }else if((data->axes[3] > 0.00001) || (data->axes[3] < -0.00001)){ 
-    angular_z = data->axes[3]*100.0;
+    angular_z = data->axes[3]*5.0;
   }else{
     angular_z = 0;
   }

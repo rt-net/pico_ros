@@ -1,0 +1,16 @@
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/lib/teleop_joy/teleop_joy
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/ament_index/resource_index/package_run_dependencies/teleop_joy
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/ament_index/resource_index/parent_prefix_path/teleop_joy
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/environment/ament_prefix_path.sh
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/environment/path.sh
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/environment/path.dsv
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/local_setup.bash
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/local_setup.sh
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/local_setup.zsh
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/local_setup.dsv
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/package.dsv
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/ament_index/resource_index/packages/teleop_joy
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/cmake/teleop_joyConfig.cmake
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/cmake/teleop_joyConfig-version.cmake
+/home/ubuntu/ros2_ws/pico_ros/install/teleop_joy/share/teleop_joy/package.xml

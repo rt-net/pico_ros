@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="wheel" params="prefix parent *joint_origin *joint_axis">
+  <joint name="${prefix}_wheel_joint" type="continuous">
+    <xacro:insert_block name="joint_origin" />
+    <xacro:insert_block name="joint_axis" />
+    <parent link="${parent}" />
+    <child link="${prefix}_wheel" />
+  </joint>
+  <link name="${prefix}_wheel">
+    <visual>
+      <origin xyz="0.016588 -0.009495 -0.010064" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://pico_description/meshes/wheel_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+  </xacro:macro>
+</robot>
+

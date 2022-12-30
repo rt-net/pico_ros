@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/ros2_ws/pico_ros/build/teleop_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/pico_ros/build/teleop_joy -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_ws/pico_ros/build/teleop_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/pico_ros/build/teleop_joy -- -j4 -l4
+Invoking command in '/home/ubuntu/ros2_ws/pico_ros/build/teleop_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/pico_ros/build/teleop_joy
+Invoked command in '/home/ubuntu/ros2_ws/pico_ros/build/teleop_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/pico_ros/build/teleop_joy
