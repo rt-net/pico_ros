@@ -36,6 +36,10 @@ install(TARGETS
   DESTINATION lib/teleop_joy
 )
 
+install(DIRECTORY
+  launch
+  DESTINATION share/teleop_joy
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
