@@ -31,9 +31,9 @@ void callback(const sensor_msgs::msg::Joy::SharedPtr data)
     linear_x = 0;
   } 
   if(data->axes[6] != 0){
-    angular_z = 0.003*data->axes[6];
+    angular_z = 3*data->axes[6];
   }else if((data->axes[3] > 0.00001) || (data->axes[3] < -0.00001)){ 
-    angular_z = data->axes[3]*0.005;
+    angular_z = data->axes[3]*5;
   }else{
     angular_z = 0;
   }
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 
   auto publisher = node->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel",1);
 
-  rclcpp::WallRate loop(100);
+  rclcpp::WallRate loop(50);
 
   while(rclcpp::ok()){
     auto msg = geometry_msgs::msg::Twist(); 
