@@ -14,6 +14,24 @@
           <mesh filename="package://pico_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
         </geometry>
       </visual>
+      <visual>
+        <origin xyz="0.0015 0 0.0313" rpy="0 0 3.14"/>
+        <geometry>
+          <mesh filename="package://pico_description/meshes/pico3_main.stl" scale="0.001 0.001 0.001" />
+        </geometry>
+      </visual>
+      <visual>
+        <origin xyz="0.04355555 0 0.012" rpy="0 0 1.57"/>
+        <geometry>
+          <mesh filename="package://pico_description/meshes/pico3_sensor.stl" scale="0.001 0.001 0.001" />
+        </geometry>
+      </visual>
+      <visual>
+        <origin xyz="-0.0495 0 0.02" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://pico_description/meshes/pico3_power.stl" scale="0.001 0.001 0.001" />
+        </geometry>
+      </visual>
     </link>
   </xacro:macro>
 </robot>
