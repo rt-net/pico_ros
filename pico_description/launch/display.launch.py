@@ -1,4 +1,4 @@
-# Copyright 2020 RT Corporation
+# Copyright 2023 RT Corporation
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,21 +16,17 @@ import os
 
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument
-from launch.conditions import IfCondition
 from launch_ros.actions import Node
-from launch_ros.actions import PushRosNamespace
 from launch.substitutions import Command
-from launch.substitutions import LaunchConfiguration
+
 
 def generate_launch_description():
     xacro_file = os.path.join(
         get_package_share_directory('pico_description'),
         'urdf',
         'pico.urdf.xacro')
-    params = {'robot_description': Command(['xacro ', xacro_file,
-              ]),
-           }
+    params = {'robot_description': Command(['xacro ', xacro_file]),
+              }
 
     rviz_config_file = get_package_share_directory('pico_description') + '/rviz/urdf.rviz'
 
@@ -52,7 +48,7 @@ def generate_launch_description():
       executable="rviz2",
       name="rviz2",
       output="log",
-      arguments=["-d",rviz_config_file]
+      arguments=["-d", rviz_config_file]
     )
 
     nodes = [
