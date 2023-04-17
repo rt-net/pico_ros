@@ -1,5 +1,7 @@
 # pico_ros
 
+[![industrial_ci](https://github.com/rt-net/pico_ros/actions/workflows/industrial_ci.yml/badge.svg)](https://github.com/rt-net/pico_ros/actions/workflows/industrial_ci.yml)
+
 Pi:Co Classic用のROSサンプルパッケージ
 
 ## License
