@@ -4,8 +4,10 @@
   <name>pico_description</name>
   <version>0.0.1</version>
   <description>pico_description</description>
-  <maintainer email="aoki@rt-net.jp">aoki</maintainer>
+  <maintainer email="shop@rt-net.jp">RT Corporation</maintainer>
   <license>Apach License 2.0</license>
+
+  <author email="aoki@rt-net.jp">Masatake Aoki</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <depend>joint_state_publisher_gui</depend>
