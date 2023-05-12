@@ -2,7 +2,9 @@
 
 [![industrial_ci](https://github.com/rt-net/pico_ros/actions/workflows/industrial_ci.yml/badge.svg)](https://github.com/rt-net/pico_ros/actions/workflows/industrial_ci.yml)
 
-Pi:Co Classic用のROSサンプルパッケージ
+Pi:Co Classic3を便利に動かすための、PC向けROSパッケージ集です。
+
+[Pi:Co Classic3用のmicro-ROS Arduino サンプル集](https://github.com/rt-net/pico_micro_ros_arduino_examples)と組み合わせて使用します
 
 ## License
 
