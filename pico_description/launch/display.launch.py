@@ -42,7 +42,7 @@ def generate_launch_description():
       package="robot_state_publisher",
       executable="robot_state_publisher",
       output="both",
-      parameters=[params],
+      parameters=[params, {'ignore_timestamp': True }],
     )
 
     joint_state_pub_gui_node = Node(
